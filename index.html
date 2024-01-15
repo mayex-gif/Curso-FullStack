@@ -39,11 +39,54 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste quasi id consequatur nisi, blanditiis,
         aspernatur vel, quos eaque expedita veniam omnis distinctio ullam. Quisquam similique explicabo libero
         consequuntur itaque.
-    </main>
 
-    <footer>
+        <br>
+        <br>
+
+        <form action="" method="post" id="contactform">
+            <label for="nombre">Nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" autofocus required><br>
+
+            <label for="nombre">Apellido: </label><br>
+            <input type="text" id="apellido" name="apellido" ><br>
+
+            <label for="dni">DNI: </label><br>
+            <input type="number" id="dni" name="dni" minlength="8" maxlength="12" ><br>
+
+            <label for="password">Password: </label><br>
+            <input type="password" id="password" name="password" minlength="8" ><br>
+
+            <label for="email">Email: </label><br>
+            <input type="text" id="email" name="email" placeholder="example@mail.com" pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"><br><br>
+
+            <input type="submit" value="Enviar Datos">
+
+            <button>
+                Envíar datos con botón
+            </button><br>
+
+        </form>
+
+        <div>
+            <button>
+                <a href="./index.html#piedepagina">Footer (Ruta relativa)</a>
+            </button>
+        </div><br>
         
+        <div>
+            <button>
+                <a href="https://www.youtube.com/watch?v=NbYbh83Icn0&list=PLYXGlxuoVRz3kkrehk1jmKZFDy32OZDq1&index=5" target="_blank">Clase5 (Ruta absoluta)</a>
+            </button>
+        </div>
+
+    </main><br>
+
+    <footer id="piedepagina">
+        <address>
+            Argentina, Córdoba, Villa La Bolsa
+        </address>
     </footer>
+
 </body>
 
 </html>
