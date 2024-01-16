@@ -90,12 +90,12 @@ a {
 footer {
   background-color: #ce735c;
   color: white;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
-  display: inline-block;
+  position: absolute;
 }
 
 footer:hover {
