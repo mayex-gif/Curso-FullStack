@@ -36,8 +36,3 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 3. Realiza tus cambios y haz commit (`git commit -am 'Añade nueva característica'`)
 4. Hace push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Abre un pull request
-
-## Licencia
-
-Este proyecto está bajo la Licencia [Nombre de la Licencia] - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
-
