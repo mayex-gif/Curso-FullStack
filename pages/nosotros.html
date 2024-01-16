@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Nosotros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <title>Tu Sitio</title>
 </head>
+
 <body>
     <header>
-        <h1>
-            CETROGAR
-        </h1>
+        <div class="header-left">
+            <h1>CETROGAR</h1>
+        </div>
+        <div class="header-right">
+            <a href="#">Iniciar Sesión</a>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="./hogar.html">Hogar</a>
-            </li>
-            <li>
-                <a href="./automotores.html">Automotores</a>
-            </li>
-            <li>
-                <a href="./exterior.html">Exterior</a>
-            </li>
-            <li>
-                <a href="./nosotros.html">Nosotros</a>
-            </li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-item" id="home">
+            <a href="../index.html">HOME</a>
+            <div class="submenu">
+                <a href="../index.html#SobreNosotros">Sobre nosotros</a>
+                <a href="../index.html#DondeEstamos">Donde estamos</a>
+                <a href="../index.html#DesdeCuando">Desde cuando</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="hogar">
+            <a href="./hogar.html">HOGAR</a>
+            <div class="submenu">
+                <a href="./hogar.html#Cocina">Cocina</a>
+                <a href="./hogar.html#Jardin">Jardín</a>
+                <a href="./hogar.html#Dormitorio">Dormitorio</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="automotores">
+            <a href="./automotores.html">AUTOMOTORES</a>
+            <div class="submenu">
+                <a href="./automotores.html#Aceites">Aceites</a>
+                <a href="./automotores.html#Cubiertas">Cubiertas</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="exterior">
+            <a href="./exterior.html">EXTERIOR</a>
+            <div class="submenu">
+                <a href="./exterior.html#Piscina">Piscina</a>
+                <a href="./exterior.html#Luces">Luces</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="nosotros">
+            <a href="./nosotros.html">NOSOTROS</a>
+            <div class="submenu">
+                <a href="./nosotros.html#Contactos">Contacto</a>
+                <a href="./nosotros.html#ComoContactarnos">Cómo contactarnos</a>
+            </div>
+        </div>
     </nav>
 
     <main>
@@ -43,8 +72,52 @@
                     neque totam!
                 </p>
             </article>
+            <article>
+                <h2>Contacto</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias excepturi consequatur nobis quis
+                    iusto, sit soluta! Ut fugit rem fugiat, sunt officiis animi voluptatibus veniam. Quisquam non autem
+                    neque totam!
+                </p>
+                <div style="margin: 5%;">
+                    <form action="" method="post" id="contactform">
+                        <label for="nombre">Nombre: </label><br>
+                        <input type="text" id="nombre" name="nombre" autofocus required><br>
+
+                        <label for="nombre">Apellido: </label><br>
+                        <input type="text" id="apellido" name="apellido"><br>
+
+                        <label for="dni">DNI: </label><br>
+                        <input type="number" id="dni" name="dni" minlength="8" maxlength="12"><br>
+
+                        <label for="password">Password: </label><br>
+                        <input type="password" id="password" name="password" minlength="8"><br>
+
+                        <label for="email">Email: </label><br>
+                        <input type="text" id="email" name="email" placeholder="example@mail.com"
+                            pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"><br>
+
+                        <label for="descripcion">Descripción: </label><br>
+                        <textarea name="textarea" id="descripcion" name="descripcion"
+                            placeholder="Escribir algo aquí..." rows="10" cols="20"></textarea><br>
+
+                        <input type="submit" value="Enviar Datos">
+
+                        <button>
+                            Envíar datos con botón
+                        </button><br><br>
+
+                    </form>
+                </div>
+            </article>
         </section>
     </main>
-    
+
+    <footer>
+        <p>
+            © 2024 Alcalde, Alejo Emanuel. Todos los derechos reservados.
+        </p>
+    </footer>
 </body>
+
 </html>

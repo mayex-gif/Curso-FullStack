@@ -1,94 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 2</title>
-    <!-- LINK CSS -->
-    <link rel="stylesheet" href="./css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Tu Sitio</title>
 </head>
 
 <body>
-    <!-- COMENTARIO -- ALT + SHIFT + A -->
-    <header>
-        <h1>
-            CETROGAR
-        </h1>
-    </header>
+  <header>
+    <div class="header-left">
+      <h1>CETROGAR</h1>
+    </div>
+    <div class="header-right">
+      <a href="#">Iniciar Sesión</a>
+    </div>
+  </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./pages/hogar.html">Hogar</a>
-            </li>
-            <li>
-                <a href="./pages/automotores.html">Automotores</a>
-            </li>
-            <li>
-                <a href="./pages/exterior.html">Exterior</a>
-            </li>
-            <li>
-                <a href="./pages/nosotros.html">Nosotros</a>
-            </li>
-        </ul>
-    </nav>
+  <nav class="navbar">
+    <div class="nav-item" id="home">
+      <a href="./index.html">HOME</a>
+      <div class="submenu">
+        <a href="./index.html#SobreNosotros">Sobre nosotros</a>
+        <a href="./index.html#DondeEstamos">Donde estamos</a>
+        <a href="./index.html#DesdeCuando">Desde cuando</a>
+      </div>
+    </div>
 
-    <main>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste quasi id consequatur nisi, blanditiis,
-        aspernatur vel, quos eaque expedita veniam omnis distinctio ullam. Quisquam similique explicabo libero
-        consequuntur itaque.
+    <div class="nav-item" id="hogar">
+      <a href="./pages/hogar.html">HOGAR</a>
+      <div class="submenu">
+        <a href="./pages/hogar.html#Cocina">Cocina</a>
+        <a href="./pages/hogar.html#Jardin">Jardín</a>
+        <a href="./pages/hogar.html#Dormitorio">Dormitorio</a>
+      </div>
+    </div>
 
-        <br>
-        <br>
+    <div class="nav-item" id="automotores">
+      <a href="./pages/automotores.html">AUTOMOTORES</a>
+      <div class="submenu">
+        <a href="./pages/automotores.html#Aceites">Aceites</a>
+        <a href="./pages/automotores.html#Cubiertas">Cubiertas</a>
+      </div>
+    </div>
 
-        <form action="" method="post" id="contactform">
-            <label for="nombre">Nombre: </label><br>
-            <input type="text" id="nombre" name="nombre" autofocus required><br>
+    <div class="nav-item" id="exterior">
+      <a href="./pages/exterior.html">EXTERIOR</a>
+      <div class="submenu">
+        <a href="./pages/exterior.html#Piscina">Piscina</a>
+        <a href="./pages/exterior.html#Luces">Luces</a>
+      </div>
+    </div>
 
-            <label for="nombre">Apellido: </label><br>
-            <input type="text" id="apellido" name="apellido" ><br>
+    <div class="nav-item" id="nosotros">
+      <a href="./pages/nosotros.html">NOSOTROS</a>
+      <div class="submenu">
+        <a href="./pages/nosotros.html#Contacto">Contacto</a>
+        <a href="./pages/nosotros.html#ComoEncontrarnos">Cómo contactarnos</a>
+      </div>
+    </div>
+  </nav>
 
-            <label for="dni">DNI: </label><br>
-            <input type="number" id="dni" name="dni" minlength="8" maxlength="12" ><br>
+  <main>
+    <section id="SobreNosotros">
+      <article>
+        <h2>Sobre nosotros</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur accusamus aut eos doloribus dolore
+          similique laborum itaque qui nesciunt unde animi, praesentium minus totam, adipisci obcaecati numquam
+          excepturi? Modi, alias!
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+        </p>
+      </article>
+    </section>
+    <section id="DondeEstamos">
+      <article>
+        <h2>Donde estamos</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ipsa accusantium nobis voluptates, accusamus quam
+          laborum mollitia libero quia! Repudiandae molestiae, cumque doloremque cum earum vitae ipsa explicabo porro.
+          Error.
+        </p>
+      </article>
+    </section>
+    <section id="DesdeCuando">
+      <article>
+        <h2>Desde cuando</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut molestiae dicta aliquid quas quibusdam
+          molestias officiis, dolorem at iure ad illum, maiores fuga cupiditate quo sunt corporis velit praesentium.
+          <br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor sint, corrupti odit quibusdam vitae ea. Dolore
+          fuga, dolorem perspiciatis aut, cupiditate harum numquam, blanditiis dolor libero cumque veritatis voluptate
+          quod! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto odit ad, culpa maxime voluptatibus earum
+          ipsam non consectetur, cumque voluptas facilis quisquam quibusdam, exercitationem blanditiis delectus. Dolor
+          voluptatum officia voluptas!
+        </p>
+      </article>
+    </section>
+  </main>
 
-            <label for="password">Password: </label><br>
-            <input type="password" id="password" name="password" minlength="8" ><br>
-
-            <label for="email">Email: </label><br>
-            <input type="text" id="email" name="email" placeholder="example@mail.com" pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"><br><br>
-
-            <input type="submit" value="Enviar Datos">
-
-            <button>
-                Envíar datos con botón
-            </button><br>
-
-        </form>
-
-        <div>
-            <button>
-                <a href="./index.html#piedepagina">Footer (Ruta relativa)</a>
-            </button>
-        </div><br>
-        
-        <div>
-            <button>
-                <a href="https://www.youtube.com/watch?v=NbYbh83Icn0&list=PLYXGlxuoVRz3kkrehk1jmKZFDy32OZDq1&index=5" target="_blank">Clase5 (Ruta absoluta)</a>
-            </button>
-        </div>
-
-    </main><br>
-
-    <footer id="piedepagina">
-        <address>
-            Argentina, Córdoba, Villa La Bolsa
-        </address>
-    </footer>
-
+  <footer>
+    <p>
+      © 2024 Alcalde, Alejo Emanuel. Todos los derechos reservados.
+    </p>
+  </footer>
 </body>
 
 </html>

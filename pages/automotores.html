@@ -1,40 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automotores</title>
+    <link rel="stylesheet" href="../css/automotores.css">
+    <title>Tu Sitio</title>
 </head>
+
 <body>
     <header>
-        <h1>
-            CETROGAR
-        </h1>
+        <div class="header-left">
+            <h1>CETROGAR</h1>
+        </div>
+        <div class="header-right">
+            <a href="#">Iniciar Sesión</a>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="./hogar.html">Hogar</a>
-            </li>
-            <li>
-                <a href="./automotores.html">Automotores</a>
-            </li>
-            <li>
-                <a href="./exterior.html">Exterior</a>
-            </li>
-            <li>
-                <a href="./nosotros.html">Nosotros</a>
-            </li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-item" id="home">
+            <a href="../index.html">HOME</a>
+            <div class="submenu">
+                <a href="../index.html#SobreNosotros">Sobre nosotros</a>
+                <a href="../index.html#DondeEstamos">Donde estamos</a>
+                <a href="../index.html#DesdeCuando">Desde cuando</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="hogar">
+            <a href="./hogar.html">HOGAR</a>
+            <div class="submenu">
+                <a href="./hogar.html#Cocina">Cocina</a>
+                <a href="./hogar.html#Jardin">Jardín</a>
+                <a href="./hogar.html#Dormitorio">Dormitorio</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="automotores">
+            <a href="./automotores.html">AUTOMOTORES</a>
+            <div class="submenu">
+                <a href="./automotores.html#Aceites">Aceites</a>
+                <a href="./automotores.html#Cubiertas">Cubiertas</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="exterior">
+            <a href="./exterior.html">EXTERIOR</a>
+            <div class="submenu">
+                <a href="./exterior.html#Piscina">Piscina</a>
+                <a href="./exterior.html#Luces">Luces</a>
+            </div>
+        </div>
+
+        <div class="nav-item" id="nosotros">
+            <a href="./nosotros.html">NOSOTROS</a>
+            <div class="submenu">
+                <a href="./nosotros.html#Contactos">Contacto</a>
+                <a href="./nosotros.html#ComoContactarnos">Cómo contactarnos</a>
+            </div>
+        </div>
     </nav>
 
     <main>
-        <section>
-            <h1>Automotores</h1>
+        <section id="Aceites">
             <article>
                 <h2>Aceites</h2>
                 <p>
@@ -43,6 +72,8 @@
                     adipisci cum obcaecati tenetur.
                 </p>
             </article>
+        </section>
+        <section id="Cubiertas">
             <article>
                 <h2>Cubiertas</h2>
                 <p>
@@ -54,5 +85,11 @@
         </section>
     </main>
 
+    <footer>
+        <p>
+            © 2024 Alcalde, Alejo Emanuel. Todos los derechos reservados.
+        </p>
+    </footer>
 </body>
+
 </html>
