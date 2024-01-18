@@ -5,7 +5,7 @@ Descripción breve del proyecto y su propósito.
 ## Características
 
 - **Número de Páginas:** 5
-- **Página Especial:** Nosotros (Incluye formulario)
+- **Página Especial:** Iniciar Sesión (Incluye formulario)
 - **Paleta de Colores:**
   - Default: `#ce735c`
   - Hover: `#DE5A39`
