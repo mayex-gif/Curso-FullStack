@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÍTULO</title>
+    <link rel="stylesheet" href="../css/automotor.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="margin-left: 5%;"><a href="../index.html">TÍTULO</a></h1>
+        <h3 style="margin-top: 6px;"><a href="./iniciarsesion.html">INICIAR SESIÓN</a></h3>
+    </header>
+
+    <main>
+        <h2>INICIAR SESION</h2>
+        <section class="padre">
+            <div>
+                <form action="" method="post" id="contactform">
+                    <label for="nombre">Nombre: </label><br>
+                    <input type="text" id="nombre" name="nombre" autofocus required><br>
+
+                    <label for="nombre">Apellido: </label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+
+                    <label for="dni">DNI: </label><br>
+                    <input type="number" id="dni" name="dni" minlength="8" maxlength="12"><br>
+
+                    <label for="password">Password: </label><br>
+                    <input type="password" id="password" name="password" minlength="8"><br>
+
+                    <label for="email">Email: </label><br>
+                    <input type="text" id="email" name="email" placeholder="example@mail.com"
+                        pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"><br><br>
+
+                    <input type="submit" value="Enviar Datos">
+
+                    <button>
+                        Envíar datos con botón
+                    </button><br><br>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
