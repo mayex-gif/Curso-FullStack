@@ -58,7 +58,7 @@ a {
 .pict1 {
     width: 100%;
     padding: 3%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 .text1 {
@@ -68,13 +68,13 @@ a {
     justify-content: center;
     align-items: center;
     padding: 3%;
-    padding-right: 5%;
+    padding-right: 3%;
 }
 
 .pict2 {
     width: 100%;
     padding: 3%;
-    padding-right: 5%;
+    padding-right: 3%;
 }
 
 .text2 {
@@ -84,7 +84,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 3%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 footer {
