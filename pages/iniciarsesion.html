@@ -1,51 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TÍTULO</title>
-    <link rel="stylesheet" href="../css/automotor.css">
+    <title>Tu Gimnasio</title>
+    <link rel="stylesheet" href="../css/iniciarsesion.css">
 </head>
 
 <body>
+
     <header>
-        <h1 style="margin-left: 5%;"><a href="../index.html">TÍTULO</a></h1>
-        <h3 style="margin-top: 6px;"><a href="./iniciarsesion.html">INICIAR SESIÓN</a></h3>
+        <h1><a href="../index.html">GYMPLUS</a></h1>
+        <button><a href="./iniciarsesion.html">Iniciar Sesión</a></button>
     </header>
 
+    <nav>
+        <a href="../index.html">HOME</a>
+        <a href="./gimnasio.html">GIMNASIO</a>
+        <a href="./piscina.html">PISCINA</a>
+        <a href="./nosotros.html">NOSOTROS</a>
+    </nav>
+
     <main>
-        <h2>INICIAR SESION</h2>
-        <section class="padre">
-            <div>
-                <form action="" method="post" id="contactform">
-                    <label for="nombre">Nombre: </label><br>
-                    <input type="text" id="nombre" name="nombre" autofocus required><br>
+        <section class="login-form">
+            <br><br>
+            <h2>INICIAR SESIÓN</h2>
+            <br><br><br>
+            <form method="post">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" autofocus required>
 
-                    <label for="nombre">Apellido: </label><br>
-                    <input type="text" id="apellido" name="apellido"><br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" minlength="8" required>
 
-                    <label for="dni">DNI: </label><br>
-                    <input type="number" id="dni" name="dni" minlength="8" maxlength="12"><br>
-
-                    <label for="password">Password: </label><br>
-                    <input type="password" id="password" name="password" minlength="8"><br>
-
-                    <label for="email">Email: </label><br>
-                    <input type="text" id="email" name="email" placeholder="example@mail.com"
-                        pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}"><br><br>
-
-                    <input type="submit" value="Enviar Datos">
-
-                    <button>
-                        Envíar datos con botón
-                    </button><br><br>
-
-                </form>
-            </div>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <br><br>    
+            <p><a href="">¿Olvidaste tu contraseña?</a></p><br><br>
+            <p><a href="">¿Necesitas una cuenta? Registrarme</a></p>
+        </section>
+        <section>
+            
         </section>
     </main>
 
+    <footer>
+        <b>&copy; 2024 - Alejo, Emanuel Alcalde</b>
+        <br>
+        <b>Curso de programación full stack - UTN.BA</b>
+    </footer>
 
 </body>
 
