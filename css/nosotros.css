@@ -58,7 +58,7 @@ a {
 .pict1 {
     width: 100%;
     padding: 50px;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
 .text1 {
@@ -68,7 +68,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 footer {
@@ -76,7 +76,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
