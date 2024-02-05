@@ -7,8 +7,8 @@
 
 ## Características
 
-- **Número de Páginas:** 5
-- **Página Especial:** Iniciar Sesión (Incluye formulario)
+- **Número de Páginas:** 6
+- **Página Especial:** Iniciar Sesión (Incluye formulario) y Registro (Incluye formulario).
 - **Paleta de Colores:**
   -Color1: #CC444B
   -Color2: #DA5552
@@ -28,10 +28,12 @@ La navegación se realiza a través de los enlaces de la barra de navegación.
 ## Páginas
 
 1. **HOME:** Descripción de la página de inicio e información sobre nosotros.
-2. **GIMNASIO:** Contenido sobre los planes dados en el gimnasio.
-3. **PISCINA:** Información la piscina del gimnasio.
+2. **PLANES:** Contenido sobre los planes dados en el gimnasio.
+3. **GIMNASIO Y PISCINA:** Información la piscina del gimnasio.
 4. **NOSOTROS:** Detalles sobre los creadores del proyecto.
-5. **Iniciar Sesion:** Incluye un formulario.
+
+5. **INICIAR SESIÓN:** Incluye un breve formulario para el inicio de sesión.
+6. **REGISTRO:** Incluye un formulario que recopila la información necesaria sobre el usuario.
 
 ## Colaboración
 
@@ -42,3 +44,11 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 3. Realiza tus cambios y haz commit (`git commit -am 'Añade nueva característica'`)
 4. Hace push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Abre un pull request
+
+
+## Contacto
+
+Si tienes alguna pregunta, comentario o sugerencia, puedes contactarme por:
+- Correo electrónico: `alcaldealejo53@gmail.com`
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejo-emanuel-alcalde-5a0314215/)
+
